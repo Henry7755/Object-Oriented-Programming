@@ -1,23 +1,22 @@
 /*
- * Author: Boateng Henry Kwabena
+ * Author: Afla-Mensah Cephson
  * Programme:Biomedical Engineering
- * Index: 7081321
- * Ref.no: 20855987
+ * Index: 7078821
  * Date: 29th February, 2024
  */
 
 
-//Creating a Test main Class called VehicleTest
+//Testing the created classes
 public class VehicleTest {
     public static void main(String[] args) {
-        Car car1 = new Car();           // Instantiating the object Class Car
-        Lorry lorry1 = new Lorry();      // Instantiating the object Class Lorry
-        Bicycle bicycle1 = new Bicycle();  // Instantiating the object Class Bicycle
+        Car car1 = new Car();           // Creating a Car object
+        Lorry lorry1 = new Lorry();      // Creating a Lorry Object
+        Bicycle bicycle1 = new Bicycle();  // Creating a bicycle object
 
-        // Outputting the default wheels of each vehicle by calling the field name wheels from the Parent class Vehicle
-        System.out.println("Cars have "+car1.wheels+" wheels");
-        System.out.println("Lorries have "+lorry1.wheels+" wheels");
-        System.out.println("Bicylces have "+bicycle1.wheels+" wheels");
+        // Printing the default values of the vehicles
+        System.out.println("Lorries have "+lorry1.getWheels()+" wheels");
+        System.out.println("Cars have "+car1.getWheels()+ " wheels");
+        System.out.println("Bicylces have "+bicycle1.getWheels()+" wheels");
 
 
     }

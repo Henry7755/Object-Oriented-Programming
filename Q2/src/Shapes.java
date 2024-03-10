@@ -1,10 +1,10 @@
 /*
- * Author: Boateng Henry Kwabena
+ * Author: Afla-Mensah Cephson
  * Programme:Biomedical Engineering
- * Index: 7081321
- * Ref.no: 20855987
+ * Index: 7078821
  * Date: 29th February, 2024
  */
+
 public class Shapes {
     public double area;
     public double getArea(){
